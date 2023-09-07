@@ -1,0 +1,200 @@
+
+.modal{
+  background: rgba(255,255,255,0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  font-family: 'Futura Md BT','sans-serif';
+}
+.modal-dialog{
+  box-shadow: 5px 10px 10px gray;
+  font-family: 'Futura Md BT','sans-serif';
+}
+
+.menu-item-hamnav{
+  font-size: 20px;
+  color: black !important;
+  cursor: pointer;
+}
+.modal-content{
+  background: rgba(255,255,255,0.1) ;
+  -webkit-backdrop-filter: blur(120px);
+  backdrop-filter: blur(120px);
+  font-family: 'Futura Md BT','sans-serif';
+}
+@supports not (backdrop-filter: blur(120px)){
+  
+  .modal-content{
+    background: rgba(255,255,255,0.1) ;
+    background: linear-gradient(0.55turn, #c9f1f4, #f6f9f5, #efb06d);
+    font-family: 'Futura Md BT','sans-serif';
+  }
+}
+.modal-header{
+  background: rgba(255,255,255,0.1) !important;
+  -webkit-backdrop-filter: blur(120px);
+  backdrop-filter: blur(120px);
+  font-family: 'Futura Md BT','sans-serif';
+}
+.btn-grp{
+  z-index: 99;
+}
+.modal-form-label{
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: 'Futura Md BT','sans-serif';
+    color: #3b3e3ef2;
+}
+.model-form-data{
+    width:100%;
+    background: rgba(249, 249, 249, 0.47);
+    font-family: 'Futura Md BT','sans-serif';
+    padding: 1.4%;
+    border-radius: 8px;
+    border: 1.5px solid #848484;
+}
+.model-form-heading{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Futura Md BT','sans-serif';
+}
+.modal-form-button{
+    background-color: rgba(255,165,0,0.5);
+    border: 1px solid orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    border-radius: 20px;
+    font-family: 'Futura Md BT','sans-serif';
+}
+.modal-form-button:hover{
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid orange;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    border-radius: 20px;
+    font-family: 'Futura Md BT','sans-serif';
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+input:invalid {
+  color: red;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+.questionmark-dropform{
+  font-family:sans-serif !important;
+} 
+.button-animate1{
+  width: 10vw;
+  position: relative;
+margin-left: 90%;
+cursor: pointer;
+z-index: 999;
+margin-top: 1%;
+
+}
+.btn-grp1{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  z-index: 9999;
+  width: 1%;
+margin-left: 89%;
+margin-top: 2%;
+}
+.checkbox-dropd{
+  border:2px solid orange;
+  border-radius: 50% !important;
+}
+.css-1s2u09g-control{
+  background: rgba(249, 249, 249, 0.47);
+  border: 1.5px solid #848484;
+  width:100%;
+}
+/* .button-animate{
+    width: 10vw;
+    position: absolute;
+margin-left: 88%;
+cursor: pointer;
+animation: animate 2s infinite;
+z-index: 999;
+  }
+.bt1{
+  margin-top: 50px;
+} */
+.model-form-data:focus {
+  border-color: rgba(255, 165, 0, 1);;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 165, 0, 0.6);
+}
+.model-form-data:focus-visible{
+  box-shadow: none;
+  outline: none;
+  border:1px solid orange;
+  box-shadow: #92826a 10px 10px 10px;
+}
+.model-register-title{
+  width:88%;
+  height:40px;
+  background: rgba(249, 249, 249, 0.47);
+  font-family: 'Futura Md BT','sans-serif';
+  padding: 1.4%;
+  border-radius: 8px;
+  border: 1.5px solid #848484;
+}
+.model-register-title:focus {
+  border-color: rgba(255, 165, 0, 1);;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 165, 0, 0.6);
+}
+.model-register-title:focus-visible{
+  box-shadow: none;
+  outline: none;
+  border:1px solid orange;
+  box-shadow: #92826a 10px 10px 10px;
+}
+.css-b62m3t-container {
+  width: 400px;
+}
+@media (max-width: 576px){
+  .modal:not(.modal-slide-in) .modal-dialog:not(.modal-fullscreen) {
+   padding-right: 0;
+   padding-left: 0;
+ }
+ }
+ @media screen and (max-width: 500px) {
+   .modal{
+     display: grid !important;
+ align-items: center;
+ justify-content: center;
+   }
+   .btn-grp1{
+    display: none;
+   }
+   .modal-dialog{
+     box-shadow: 5px 10px 10px gray;
+     font-family: 'Futura Md BT','sans-serif';
+   }
+   .css-1s2u09g-control{
+     background: rgba(249, 249, 249, 0.47);
+     border: 1px solid #f8f8f8;
+     width:100%;
+   }
+   .css-b62m3t-container {
+     width: 220px;
+   }
+   .modal-content{
+     width:300px;
+   }
+ }
+

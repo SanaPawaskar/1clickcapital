@@ -1,0 +1,28 @@
+.card{
+    width: 97%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    box-sizing: border-box;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(120px);
+    border-radius: 10px;
+    border: 1px solid orange;
+    margin-top: 1%;
+    padding-bottom: 8%;
+    z-index: 9;
+    margin-bottom: 1%;
+}
+@media screen and (max-width:500px) {
+ .card{
+    border: 0.5px solid orange;
+ }
+ .btn-grp{
+    display: none;
+ }
+//  html,body{
+//     overflow-x: hidden;
+//     overflow-y: scroll;
+//  }
+ 
+}

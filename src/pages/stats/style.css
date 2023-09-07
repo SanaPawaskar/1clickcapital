@@ -1,0 +1,45 @@
+.pic{
+    width: 35%;
+    height: auto;
+    }
+    .card10{
+      display: grid;
+align-content: center;
+justify-content: center;
+justify-items: center;
+    }
+  .heading-stats{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Futura ',sans-serif;
+  text-align: center;
+ }
+ .stats{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 8%;
+ }
+ 
+ @media screen and (max-width:1000px) {
+  .stats{
+    grid-template-columns: auto auto auto;
+  }
+  
+ }
+ @media screen and (max-width:700px) {
+  .stats{
+    grid-template-columns: auto auto;
+  }
+ }
+ @media screen and (max-width:480px) {
+  /* .stats{ */
+    /* grid-template-columns: auto;
+    place-items: center; */
+    .heading-stats{
+   
+      font-size: 17px;
+    
+     }
+  /* } */
+ }

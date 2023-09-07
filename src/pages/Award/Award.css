@@ -1,0 +1,244 @@
+
+.header{
+  text-align: center;
+ }
+ .header-heading{
+  position: relative;
+  font-family: 'Futura';
+  font-style: italic;
+  font-size: 2.9vw;
+  z-index: -1;
+color: rgb(58, 56, 56);
+  margin-top: 3%;
+ }
+ @keyframes animate
+ {
+  0%
+  {
+    background-position: -500%;
+  }
+  100%
+  {
+    background-position: 500%;
+  }
+ }
+ .container1-left{
+  margin-left: 20%;
+ }
+ .container1-right{
+  margin-right: 20%;
+ }
+ .container-pf-awards {
+    width: 70%;
+    position:relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    position:relative;
+    transition: 0.5s;
+    margin-top: 10%;
+  }
+ .imagesize{
+  position: absolute;
+  width: 33.5%;
+  height: auto;
+  /* margin-left: -88%; */
+  left: -12%;
+ }
+ .imagesize-of-2{
+  position: absolute;
+  width: 77%;
+  height: auto;
+ }
+ .logoholder{
+  width:85%;
+ }
+.award-column {
+  width: 40%;
+  display:flex ;
+  justify-content: center;
+  place-items:center;
+}
+.award-row {
+  padding:10px;              
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Clear floats after the columns */
+.award-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* @media screen and (max-width: 850px) {
+  .award-row {
+    padding:10px;              
+    width: 100%;
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+  }
+  .award-column {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} */
+.award-main-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+.container-gsap-award {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(150px);
+  backdrop-filter: blur(150px);
+  margin-top: 0px;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px 0px 70px 0px;
+  word-wrap: normal;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+}
+.Awards-Avnish{
+  position: relative;
+  font-family: 'Futura Md BT','sans-serif';
+  font-weight: 600;
+  font-size: 2.5vw;
+  background-image: -webkit-linear-gradient(160deg, #d9bd20 30.92%, #FFFFFF 48.36%, #d9bd20 68.09%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: initial;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  -webkit-text-fill-color: rgba(255, 255, 255, .1);
+  z-index: -1;
+  margin-top: 8%;
+  margin-left: 18%;
+}
+.Awards-Avnish2{
+  position: relative;
+  font-family: 'Futura Md BT','sans-serif';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.5vw;
+  background-image: -webkit-linear-gradient(160deg, #d9bd20 30.92%, #FFFFFF 48.36%, #e3c519 68.09%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: initial;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  -webkit-text-fill-color: rgba(255, 255, 255, .1);
+  z-index: -1;
+  margin-top: -2%;
+  list-style-type: none;
+}
+.Awards-list{
+  list-style: none;
+}
+.wordmark-title-award {
+  border-radius: 15px 0px 70px 0px;
+  color: black;
+  position: relative;
+  font-family: 'Futura Md BT','sans-serif';
+  max-width: 300px;
+  font-size: 35px;
+  font-weight: bold;
+  height: 50px;
+  background-color: black;
+}
+.wordmark-title-award::after {
+  padding: 10px 60px;
+  content: "Awards";
+  font-family: 'Futura Md BT','sans-serif';
+  font-size: 35px;
+  color: white;
+  mix-blend-mode: difference;
+}
+.title-rect1-award {
+  border-radius: 0px 0px 100px 0px;
+  width: 450px;
+  height: 20px;
+  background: rgba(47, 196, 206, 0.1);
+  border: 0.5px solid #FFFFFF;
+  box-shadow: 1px 0px 2px #2FA6CE, inset 1px 0px 3px #FFFFFF;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin-left: 0%;
+  position: absolute;
+  margin-top: -10px;
+  
+}
+.title-rect2-award {
+  border-radius: 0px 0px 100px 0px;
+  width: 120px;
+  height: 20px;
+  font-family: 'Futura  BT',sans-serif;
+  background: rgba(47, 196, 206, 0.1);
+  border: 0.5px solid #FFFFFF;
+  box-shadow: 1px 0px 2px #2FA6CE, inset 1px 0px 3px #FFFFFF;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin-left: 0%;
+  position: absolute;
+  margin-top: 12px;
+}
+.rectangle-titlesvg-award{
+  width: 130px;
+  height: 100px;
+  margin-left: 60px;
+  margin-top: -220px;
+}
+@media screen and (max-width: 500px) {
+.container-gsap-award {
+  width: 200px;
+  height:40px;
+}
+
+.wordmark-title-award {
+  max-width: 200px;
+  height:40px;
+  font-size: 25px;
+}
+.wordmark-title-award::after {
+  padding: 10px 40px;
+  font-size: 25px;
+}
+.title-rect1-award {
+  width: 250px;
+  height: 20px;
+}
+.title-rect2-award {
+  width: 80px;
+  height: 20px;
+}
+.rectangle-titlesvg-award {
+  width: 90px;
+  height: 35px;
+  margin-top: -135px;
+  margin-left: 40px;
+}
+}
+ 
+.Awards-page-line{
+  position:relative;
+width:55% ;
+height: 2px;
+margin-left: 23%;
+border-radius: 20%;
+background-image: -webkit-linear-gradient(160deg, #4b4b4b 30.92%, #FFFFFF 48.36%, #4b4b4b 68.09%); 
+background-repeat: initial;
+background-size: 80%;
+animation: animate 6s linear infinite;
+-webkit-text-fill-color: rgba(255, 255, 255, .1);
+margin-bottom: 10px;
+} 

@@ -1,0 +1,192 @@
+.col-of-calendar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    width:100%;
+    height:auto;
+}
+.numbeOfBlog{
+    color: black;
+    font-family: sans-serif;
+}
+.prev-year{
+    margin-left: 40%;
+    margin-top:1%
+}
+.year{
+    width: 100px;
+    margin-top: -11px;
+    margin-left: -6%;
+    position: absolute;
+}
+.Calendar-Line-Image{
+    width: 100%;
+    margin-top: -1%;
+    padding: 0% 4%; 
+    height: 25px;
+}
+.Button-of-Calendar{
+    border: 2px solid orange;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    cursor: pointer;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-weight: bold;
+    width: 10%;
+    font-size: 70%;
+    height: fit-content;
+    }
+.Arrow-Line-Imagel {
+    width: auto;
+    height: 15px;
+    color: rgb(246, 161, 25); 
+    cursor: pointer;
+}
+.Arrow-Line-Imager {
+    width: auto;
+    height: 15px;
+    color: rgb(246, 161, 25); 
+    cursor: pointer;
+}
+.round-button-designl{
+    width: 8px;
+    border-radius: 50%;
+    height: 8px;
+    background-color: orange;
+}
+.round-button-designr{
+    width: 8px;
+    border-radius: 50%;
+    height: 8px;
+    background-color: orange;
+}
+.col-of-calendar2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width:100%;
+    height:auto;
+}
+.Calendar-Line-Image2{
+    width: 90%;
+    padding: 0% 4%; 
+    margin-left: 5%;
+    margin-top: -1%;
+    height: 21px;
+}
+.Button-of-Calendar2{
+    border: 2px solid orange;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    cursor: pointer;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-weight: bold;
+    width: 10%;
+    font-size: 70%;
+    height: fit-content;
+}
+.Month-names-Left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 9%;
+    margin-top: -4%;
+}
+.Month-names-Right{
+    width: 20%;
+  display: flex;
+  align-items: center;
+  margin-left: 62%;
+  margin-top: -4%;
+}
+.Month-Name{
+    margin-left: 10%;
+    background-color:transparent;
+    border-style: solid;
+    border: 0px;
+    font-family: 'Futura Md BT','sans-serif';
+    font-size: 13px;
+    cursor: pointer;
+}
+.button-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    gap: 0.5%;
+    margin-left: 1%;
+}
+@media screen and (max-width: 800px){
+    .Month-Name{
+        font-size: 11px;
+    }
+    .Button-of-Calendar2{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 650px){
+    .Month-Name{
+        font-size: 9px;
+    }
+    .Button-of-Calendar2{
+        font-size: 45%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Month-names-Left{
+       display: grid;
+      grid-template-columns: repeat(3, 36px);   
+    }
+    
+    .Month-names-Right{
+        display: grid;
+        grid-template-columns: repeat(3, 36px);   
+         margin-top: -39px;
+    }
+
+    .Button-of-Calendar2 {
+        width: 16%;
+        font-size: 45%;
+        height: fit-content;
+    }
+    .Button-of-Calendar {
+        width: 16%;
+        font-size: 45%;
+        height: fit-content;
+    }
+    .Arrow-Line-Imagel {
+        height: 10px;
+    }
+    .Arrow-Line-Imager {
+        height: 10px;
+    }
+    .Month-Name{
+        font-family: 'Futura Md BT','sans-serif';
+        font-size: 10px;
+    }
+    .round-button-designl{
+        width: 5px;
+        height: 5px;
+    }
+    .round-button-designr{
+        width: 5px;
+        height: 5px;
+    }
+    .Calendar-Line-Image2{
+        margin-top:-26px;
+    }
+}  
+p,h1,h2,h3{
+    font-family: 'Futura  BT',sans-serif;
+}

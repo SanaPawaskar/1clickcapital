@@ -1,0 +1,286 @@
+.card1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 96%;
+  height:1500px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(120px);
+  border-radius: 10px;
+  border: 2px solid orange;
+  z-index: 1;
+  }
+  .card2{
+    background: rgba(255, 255, 255, 0.1);
+border: 1px solid #FFFFFF;
+box-shadow: inset -2px -2px 2px rgba(88, 208, 216, 0.25), inset 2px 2px 2px rgba(246, 166, 36, 0.25);
+backdrop-filter: blur(50px);
+border-radius: 10px;
+    width: 98%;
+  box-sizing: border-box;
+  position:relative;
+  margin-top: 2%;
+  margin-left: 1%;
+      }
+.rowProduct{
+    display: flex;
+    flex-wrap: wrap;
+  }
+/* 
+.col2{
+  text-align: center;
+   margin-top: 1%;
+} */
+/* .pro-image{
+  width: 50px;
+  margin-top: 2%;
+} */
+ /* .containerClass{
+  box-sizing: border-box;
+position: relative;
+width:  288px;
+height: 102px;margin-top: 2%;
+background: rgba(255, 255, 255, 0.1);
+border: 0.5px solid #f2f2f2 ;
+border-radius: 200px;
+margin-left: 85px;
+margin-top: 5%;
+} */
+.inner-circle{
+  position:relative;
+width: 96px;
+height: 96px;
+border-radius: 200px;
+margin-top: 1.5px;
+background-color: #f2f2f2;
+margin-left: 1%;
+
+}
+.insidetext{
+    margin-left: 90px;
+    margin-top: -80px;
+    font-family: 'Futura Md BT', sans-serif;
+    font-size:13px;
+}
+.text{
+  margin-top: 7%;
+  text-align: center;
+  font-family: 'Futura Md BT', sans-serif;
+}
+.Text3{
+  text-align: center;
+  margin-top: 2%;
+  letter-spacing: 0.4em;
+  font-family: 'Futura Md BT', sans-serif;
+}
+.para{
+  margin-left: 33%;
+  font-weight: 300;
+font-size: 20px;
+line-height: 50rem;
+letter-spacing: 0.05em;
+margin-top: 8%;
+}
+.circle{
+  position:relative;
+width: 16px;
+height: 16px;
+margin-left: 50%;
+margin-top: 3%;
+border-radius: 200px;
+background: #f6f3f5;
+}
+
+.imagevec{
+  margin-top: 22px;
+}
+
+.ProductName{
+  margin-top: -37px;
+font-size: 30px;
+line-height: 36px;
+font-family: 'Futura Md BT', sans-serif;
+margin-left: 41%;
+color: #6b6868;
+  }
+.btn{
+  background-color: transparent;
+  width: 10px;
+  height: 90px;
+ }
+.para1{
+color: #373737;
+  margin-top: 5%;
+  font-family: 'Futura Md BT', sans-serif;
+}
+
+.cntnv{
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: auto;
+}
+
+.colofnavbar{
+  flex: auto;
+/* max-width: 100%; */
+margin-top: auto;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(120px);
+}
+.pll{
+  color:rgb(9, 9, 10);
+  cursor: pointer;
+  font-size: 14px;
+}
+.cardparatext{
+  position: relative;
+  box-sizing: border-box;
+  width: 76%;
+  text-align: center;
+  margin-left: 10%;
+}
+.text{
+  margin-top: 10%;
+ margin-left: 60px;
+}
+/* .rectline2{
+  position:relative;
+width:55% ;
+height: 2px;
+margin-left: 25%;
+border-radius: 20%;
+background-image: -webkit-linear-gradient(160deg, #4b4b4b 30.92%, #FFFFFF 48.36%, #4b4b4b 68.09%); 
+background-repeat: initial;
+background-size: 80%;
+animation: animate 6s linear infinite;
+-webkit-text-fill-color: rgba(255, 255, 255, .1);
+} */
+
+@keyframes animate
+{
+0%
+{
+  background-position: -500%;
+}
+100%
+{
+  background-position: 500%;
+}
+}
+.click{
+  position: relative;
+  /* margin-left: 20%; */
+  margin-top: 8%;
+  margin-bottom: -1.5rem;
+  font-size:17px;
+  font-family: 'Futura Md BT';
+}
+.shift{
+  margin-right: 260px;
+}
+.shift2{
+  margin-right: 100px;
+}
+.shift3{
+  margin-right: 170px;
+}
+.shift4{
+  margin-right: 248px;
+}
+/* .shiftPayroll{
+  margin-right: 20px;
+} */
+/* .shiftMSEmE{
+  margin-right: 30px;
+} */
+.nav-link-active{
+   border-bottom: 3px solid orange;
+  opacity: 1; 
+  color: #373737;
+  font-family: 'Futura Md BT', sans-serif;
+font-size: 11px;
+line-height: 13px;
+}
+.presentation{
+  list-style: none;
+  font-family: 'Futura Md BT', sans-serif;
+ }
+ .Content-left-mai-lene-k-liye{
+  text-align: left;
+  color: #373737;
+  margin-left: 90px;
+  margin-top: 3%;
+  font-family: 'Futura Md BT', sans-serif;
+ }
+@media screen and (max-width:500px) {
+  .containerClass{
+  width:  154px;
+  height: 51px;margin-top: 1%;
+  border: 0.25px solid #f2f2f2 ;
+  border-radius: 100px;
+  }
+  .inner-circle{
+  width: 43.5px;
+  height: 43.5px;
+  border-radius: 100px;
+  }
+  .insidetext{
+    font-size:8px;
+    margin-top: -25%;
+    margin-left:45px;
+}
+.Text3{
+  font-size: small;
+  text-align: center;
+  margin-top: 1.5%;
+  letter-spacing: 0.2em;
+  font-family: 'Futura Md BT', sans-serif;
+}
+.ProductName{
+  /* margin-top: -17px; */
+font-size: 15px;
+line-height: 23px;
+margin-left: 35%;
+  }
+  
+.imagevec{
+  margin-top:11px;
+  width:18px;
+}
+.para1{
+    margin-top: 2.5%;
+   font-size: smaller;
+  }
+  .click{
+    margin-left:60px;
+    font-size:13px;
+    width: 26%;
+   }
+   .shift{
+    margin-right: 550px;
+  }
+  .shift2{
+    margin-right: 240px;
+  }
+  .shift3{
+    margin-right: 240px;
+  }
+  .shift4{
+    margin-right: 254px;
+  }
+  .shift6{
+    margin-right: 654px;
+  }
+  .shiftPayroll{
+    margin-right: 270px;
+  }
+  .text{
+    display:inline;
+    
+  }
+}

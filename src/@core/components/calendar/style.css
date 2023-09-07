@@ -1,0 +1,12 @@
+.calendar-div{
+    padding: 5%;
+}
+    .detail{
+        border-radius: 50px 50px;
+        width:20%;
+        height: 35px;
+        border:4px solid rgb(221, 220, 220);
+        box-shadow: 0 2px 5px 2px #a6a6a6;
+        color: white;
+        background: -webkit-linear-gradient(270deg, orange 35%, rgba(0,0,0,0.7) );
+    }

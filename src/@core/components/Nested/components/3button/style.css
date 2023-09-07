@@ -1,0 +1,111 @@
+/* .circle-product{
+   width: 25px;
+   height: 25px;
+   background-color: white;
+   border-radius: 50%;
+   display: inline-block;
+margin-top: 5%;
+margin-bottom: 5%;
+} */
+.button-product-container{
+display: flex;
+column-gap: 5%;
+justify-content: center;
+padding-top: 5%;
+padding-bottom: 5%;
+width: 80%;
+}
+.section2-product{
+   place-items: center;
+    display: grid;
+}
+.enroll-button{
+box-sizing: border-box;
+height: 100px;
+min-width: 29%;
+background: rgba(255, 255, 255, 0.1);
+border: 0.5px solid white;
+-webkit-backdrop-filter: blur(50px);
+backdrop-filter: blur(50px);
+border-radius: 200px;
+}
+.image-back-white{
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   background-color: white;
+   display:grid;
+   justify-content: center;
+   align-items: center;
+   margin: 3px;
+}
+.enroll-img{
+    width: 50px;
+    height: 50px;
+}
+.enroll-text{
+    margin-left: 104px;
+margin-top: -70px;
+font-size: 1vw;
+}
+.Text3{
+    font-size: small;
+    text-align: center;
+    margin-top: 1.5%;
+    letter-spacing: 0.2em;
+    font-family: 'Futura Md BT', sans-serif;
+  }
+  .rectline2{
+    position:relative;
+  width:80%;
+  height: 2px;
+  border-radius: 20%;
+  background-image: -webkit-linear-gradient(160deg, #4b4b4b 30.92%, #FFFFFF 48.36%, #4b4b4b 68.09%); 
+  background-repeat: initial;
+  background-size: 80%;
+  animation: mettalic 6s linear infinite;
+  -webkit-text-fill-color: rgba(255, 255, 255, .1);
+  margin-top: 1%;
+  }
+  @keyframes mettalic
+{
+0%
+{
+  background-position: -500%;
+}
+100%
+{
+  background-position: 500%;
+}
+}
+@media screen and (max-width:850px) {
+  .button-product-container{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 5%;
+    width: 70%;
+    padding-bottom: 10%;
+  }
+    .enroll-text{
+    font-size: 2vw;
+    }
+}
+@media screen and (max-width:550px) {
+  .button-product-container{
+      margin-left: -50%;
+      display: contents;
+  }
+  .enroll-button{
+        width: 60vw;
+        margin-top: 5%;
+    }
+    .Common-word-product{
+      font-size: 20px;
+      margin-top: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+.enroll-text {
+  font-size: 3vw;
+}
+}

@@ -1,0 +1,361 @@
+.container_twit{
+    position: relative;
+    box-sizing: border-box;
+    width: 88%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: orange;
+    border: 1px solid orange;
+    margin-top: 2%;
+    padding-bottom: 7%;
+    height: 665px;
+  }
+
+.image-class-house_twit{
+    width: 50%;
+    margin-left: 42%;
+    margin-top: -33%;
+}
+.image2-class-downstyle_twit{
+    width: 92%;
+    margin-left: 8%;
+    margin-top: -526px;
+  }
+  .rect_twit{
+    border-radius: 32px;
+    border: 1px solid white;
+    width: 26%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    margin-left: -25px;
+    font-size: 36px;
+    font-style: initial;
+    color: orange;
+    background: white;
+    font-family: futura,sans-serif;
+    font-weight: 564;
+}
+.title1_twit{
+    margin-top: 4%;
+margin-left: 6%;
+color: white;
+font-weight: 612;
+font-size: 37px;
+}
+.Bold-title_twit{
+    margin-left: 6%;
+font-size: 79px;
+font-weight: 603;
+margin-top: -26px;
+ text-shadow: 0 0 5px #f0efee, 0 0 15px #f3f0eb;
+   
+}
+.small-title_twit{
+    margin-top: -2%;
+margin-left: 17%;
+color: white;
+font-weight: 612;
+font-size: 37px;
+}
+.box-text_twit{
+        margin-left: -1%;
+        margin-top: -6px;
+        width: 128px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+        font-weight: 599;
+        background: black;
+        height: 31px;
+}
+.border-white-div_twit{
+    border: 1.5px solid white;
+    height: 30px;
+    margin-left: 73px;
+    margin-top: 3%;
+    width: 133px;
+}
+.contact-div-main_twit{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.num_twit{
+background-color: white;
+border-radius: 5px;
+}
+.font_twit{
+    background-color:none;
+}
+@media screen and (max-width: 900px) {
+    .container_twit{
+        width: 100%;
+        height: 596px;
+    }
+    .image-class-house_twit{
+        width: 48%;
+        margin-left: 44%;
+        margin-top: -33%;
+    }
+    .image2-class-downstyle_twit{
+        width: 84%;
+        margin-left: 14%;
+        margin-top: -428px;
+      }
+      .rect_twit{
+        border-radius: 32px;
+        width: 26%;
+        margin-top: 8%;
+        margin-left: -11px;
+        font-size: 36px;
+        font-weight: 564;
+    }
+    .title1_twit{
+        margin-top: 4%;
+    margin-left: 6%;
+    font-weight: 612;
+    font-size: 37px;
+    }
+    .Bold-title_twit{
+        margin-left: 6%;
+    font-size: 79px;
+    font-weight: 603;
+    margin-top: -26px;
+       
+    }
+    .small-title_twit{
+        margin-top: -2%;
+    margin-left: 17%;
+    font-weight: 612;
+    font-size: 37px;
+    }
+    .box-text_twit{
+            margin-left: -1%;
+            margin-top: -6px;
+            width: 128px;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 599;
+            height: 31px;
+    }
+    .border-white-div_twit{
+        border: 1.5px solid white;
+        height: 30px;
+        margin-left: 73px;
+        margin-top: 3%;
+        width: 133px;
+    }
+    .contact-div-main_twit{
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+  
+   
+   
+  }
+  @media screen and (max-width: 650px) {
+    .container_twit{
+        width: 100%;
+        height: 496px;
+    }
+    .image-class-house_twit{
+        width: 28%;
+        margin-left: 38%;
+        /* margin-top: %; */
+    }
+    .image2-class-downstyle_twit{
+        width: 104%;
+        margin-left: -6%;
+        margin-top: -151px;
+      }
+      .rect_twit{
+        width: 14%;
+        margin-left: -6px;
+        font-size: 10px;
+    }
+    .title1_twit{
+    font-size: 11px;
+    }
+    .Bold-title_twit{
+    font-size: 20px;
+    margin-top: -9px;
+    
+       }
+    .small-title_twit{
+      
+        font-size: 11px;
+        margin-left: 46px;
+    }
+    .text-div_twit{
+        margin-left: 40px;
+        width: 30%;
+    }
+    .box-text_twit{
+            margin-left: -1%;
+            margin-top: -6px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 599;
+            height: 25px;
+    }
+    .border-white-div_twit{
+        height: 25px;
+        margin-left: 73px;
+        margin-top: 3%;
+        width: 105px;
+    }
+   .box-div_twit{
+width: 20%;
+margin-top: 16px;
+   }
+    
+    .contact-div-main_twit{
+        display: flex;
+        gap: 7px;
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 40%;
+        font-size: 10px;
+    }
+    
+   
+  }
+  @media screen and (max-width: 480px) {
+    .container_twit{
+        width: 100%;
+        height: 302px;
+    }
+    .image-class-house_twit{
+        width: 38%;
+        margin-left: 48%;
+        margin-top: -90%;
+    }
+    .image2-class-downstyle_twit{
+        width: 104%;
+        margin-left: -6%;
+        margin-top: -238px;
+      }
+      .rect_twit{
+        width: 18%;
+        margin-left: -6px;
+        font-size: 10px;
+    }
+    .title1_twit{
+    font-size: 11px;
+    }
+    .Bold-title_twit{
+    font-size: 20px;
+    margin-top: -9px;
+    
+       }
+    .small-title_twit{
+      
+        font-size: 11px;
+        margin-left: 46px;
+    }
+    .text-div_twit{
+        margin-left: 40px;
+        width: 100%;
+    }
+    .box-text_twit{
+            margin-left: -1%;
+            margin-top: -6px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 599;
+            height: 25px;
+    }
+    .border-white-div_twit{
+        height: 25px;
+        margin-left: 73px;
+        margin-top: 3%;
+        width: 105px;
+    }
+   .box-div_twit{
+width: 15%;
+margin-top: 26px;
+margin-left: -50px;
+   }
+    
+    .contact-div-main_twit{
+        display: flex;
+        gap: 7px;
+        margin-top: 30px;
+        margin-left: 2px;
+        width: 70%;
+        font-size: 10px;
+    }
+    .num_twit{
+    background-color: white;
+    border-radius: 5px;
+    }
+   
+}
+@media screen and (max-width: 390px) {
+    .container_twit{
+        width: 100%;
+        height: 272px;
+    }
+    .image-class-house_twit{
+        width: 38%;
+        margin-left: 52%;
+        margin-top: -90%;
+    }
+    .image2-class-downstyle_twit{
+        width: 104%;
+        margin-left: -6%;
+        margin-top: -178px;
+      }
+      .rect_twit{
+        width: 18%;
+        margin-left: -6px;
+        font-size: 10px;
+    }
+    .title1_twit{
+    font-size: 11px;
+    }
+    .Bold-title_twit{
+    font-size: 20px;
+    margin-top: -9px;
+    
+       }
+    .small-title_twit{
+      
+        font-size: 11px;
+        margin-left: 46px;
+    }
+    .text-div_twit{
+        margin-left: 40px;
+        width: 100%;
+    }
+    .box-text_twit{
+            margin-left: -1%;
+            margin-top: -6px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 599;
+            height: 25px;
+    }
+ 
+   .box-div_twit{
+width: 15%;
+margin-top: 26px;
+margin-left: -50px;
+   }
+   .house_twit{
+    margin-top: -20px;
+   } 
+  
+}

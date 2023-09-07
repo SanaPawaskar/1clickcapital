@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1",
+        "job_title": "Regional Manager",
+        "work_location": "West/North (Mumbai/Delhi)",
+        "position": "1",
+        "experience":"6-7 years",
+        "qualities":"<ul><li>He must be graduate/Post Graduate.</li><li>Minimum 6/7 years of Insurance Experience out of which 3 years of Team Handling Exposure is required.</li><li>Successful track record and Experience Insurance Broking would be an added advantage.</li></ul>"    },
+    {
+         "id": "2",
+         "job_title": "Manager Sales Training (L&D profile)",
+         "work_location": "Delhi/Gurgaon.",
+         "position": "1",
+         "experience":"3-5 years",
+         "qualities":"<ul><li>She/he must be graduate.</li><li>Min 3-5 years’ experience.</li><li>Should be able to deliver Training Contents to Sales Team in person in one to many and also in Video Calls Formats.</li><li>Proficient in PPT’s and other training Presentations formats.</li><li>Exposure in insurance industry training is a must.</li><li>Experience in Insurance Broking would be an added advantage.</li></ul>"  },
+     {
+         "id": "3",
+         "job_title": "Zonal Vice President",
+         "work_location": "Mumbai (Powai)",
+         "position": "1",
+         "experience":"minimum 10 years",
+         "qualities": "<ul><li>He must be graduate/Post Graduate.</li><li>Minimum 10 years of Insurance Experience out of which 5-6 years of Team Handling Exposure is a must.</li><li>Successful track record and Experience in Insurance Broking would be an added advantage.</li><li>Proven Experience in managing and effectively driving the sales team to achieve annual targets.</li><li>Comfortable in establishing relationship especially at higher levels in a given corporate.</li></ul>"
+     },
+     {
+         "id": "4",
+         "job_title": "Search Engine Optimization",
+         "work_location": "Mumbai (Powai)",
+         "position": "1",
+         "experience":"3-5 years",
+         "qualities": "<ul><li>He/She must be graduate.</li><li>Min 3 to 5 years’ experience in similar profile.</li><li>Good oral and written communication skills.</li></ul>"
+    },
+     {
+         "id": "5",
+         "job_title": "Sales Manager",
+         "work_location": "Mumbai/Pune/Delhi/Gurgaon",
+         "position": "1",
+         "experience":"1-5 years",
+         "qualities": "<ul><li>He must be graduate.</li><li>Minimum 1 -5 years of Experience.</li><li>Exposure in insurance industry training is a must.</li><li>Experience in Insurance Broking would be an added advantage.</li></ul>"
+     },
+     {
+         "id": "6",
+         "job_title": "Credit Manager",
+         "work_location": "Mumbai (Powai)",
+         "position": "1",
+         "experience":"3+ years",
+         "qualities":"<ul><li>He must be graduate/Post Graduate.</li><li>Excellent understanding of lending products, processes and policies.</li><li>Must have experience in Financial Services only (Preferable from Banks).</li><li>3 plus Years of experience as Credit manager and in Collection department.</li><li>Good communication skills.</li><li>Hands-on experience with accounting software/ Loan Management System.</li><li>Negotiation skills, Collections experience.</li><li>Solid understanding of lending procedures.</li></ul> "
+     },
+     {
+          "id": "7",
+          "job_title": "PHP Developer",
+          "work_location": "Mumbai (Powai)",
+          "position": "1",
+          "experience":"Minmum 4 years",
+          "qualities":"<ul><li>He/She must be graduate in B.TECH</li><li>Must have experience in Financial Services only.</li><li>Min 4 Year Exp.</li><li>Good oral communication skills.</li><li>Should be fluent in any 3 Technical Languages (SQL Must)</li></ul>"
+     },
+      {
+          "id": "8",
+          "job_title": "App Developer",
+          "work_location": "Mumbai (Powai)",
+          "position": "1",
+          "experience":"minimum 3 years",
+          "qualities": "<ul><li>He/She must be graduate in B.TECH</li><li>Must have experience in Financial Services only </li><li>Min 3 Year Exp.</li><li>Good oral communication skills. </li><li>Should be fluent in React Native and desired in android as well</li></ul>"
+     },
+      {
+          "id": "9",
+          "job_title": "Middleware(Backend) Developer",
+          "work_location": "Mumbai (Powai)",
+          "position": "1",
+          "experience":"Minimum 3 years",
+          "qualities": "<ul><li>He/She must be graduate in B.TECH</li><li>Must have experience in Financial Services only </li><li>Min 3 Year Exp.</li><li>Good oral communication skills. </li><li>Should be fluent in any 3 Technical Languages</li></ul>"
+      },
+      {
+          "id": "10",
+          "job_title": "Legal and Compliance officer",
+          "work_location": "Mumbai (Powai)",
+          "position": "1",
+          "experience":"1-5 years",
+          "qualities": "<ul><li>He/She must be graduate from CS background only. </li><li>Must have experience in Financial Services only </li><li>Min 3 years’ experience. </li><li>Good oral and written communication skills.</li></ul>"
+      },
+      {
+         "id": "11",
+         "job_title": "Graphic Designer/ UI Designer",
+         "work_location": "Mumbai (Powai)",
+         "position": "1",
+         "experience":"Minimum 3 years",
+         "qualities":"<ul><li>She/he must be graduate</li><li>Min 3 years’ experience. </li><li>Must be well known to Figma- glass morphism and neo morphism.</li><li>Must be well known to making Motion Video, Adobe Photoshop, illustrator, adobe after effects.</li></ul>"      
+     },
+     {
+          "id": "12",
+          "job_title": "Content Writer",
+          "work_location": "Mumbai (Powai)",
+          "position": "1",
+          "experience":"2-3 years",
+          "qualities":"<ul><li>He/She must be graduate</li><li>Must have experience in Financial Services only </li><li>Min 2 to 3 years’ experience. </li><li>Good oral and written communication skills. </li><li>Creative Content Writer.</li><li>Knowledge of digital marketing tactics, including SEO, email marketing and web analytics, blogs writing for website and Linkedin.</li></ul>"
+     },
+      {
+          "id": "13",
+          "job_title": "Sales Telecaller",
+          "work_location": "Mumbai (Powai)",
+          "position": "1",
+          "experience":"minimum 1-2 years",
+          "qualities": "<ul><li>He/She must be graduate</li><li>Must have experience in Financial Services only.</li><li>Min 1 to 2years experience.</li> <li>Good oral and written communication skills.</li><li>Ability to manage and handle multiple work.</li></ul>"
+      },
+      {
+          "id": "14",
+          "job_title": "HR Head",
+          "work_location": "Gurgoan",
+          "position": "1",
+          "experience":"Minimum 5 years",
+          "qualities": "<ul><li>He must be graduate/Post Graduate. </li><li>Minimum 5 years of work experience in recruitment across all levels of positions in Insurance Company.</li><li>Strong experience in using Search Strings on various platforms and not limited to LinkedIn, Naukri etc.</li><li>Prior expertise on working with an Insurance Broker would be an added advantage.</li><li>Have Closed Mandates on Pan India Level in Insurance Companies/Insurance Broker.</li></ul>"
+      }
+ ]

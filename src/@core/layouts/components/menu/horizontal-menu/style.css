@@ -1,0 +1,33 @@
+.navsvg{
+    margin-top: 80px;
+  width: 200px;
+  height:200px ; 
+   background-color: white;
+  border-radius: 50%;
+}
+ ul{
+    float: right;
+  margin-bottom: 30px;
+  /* margin-right: 10%; */
+  display: flex;
+  flex-direction: row;
+   align-items: center; 
+  gap: 1.5%;
+  width: 46%;
+  height: 1rem;
+} 
+li{
+  width: 90px;
+  height: 1.5rem;
+  font-family: 'Poppins';
+  font-style: normal;
+   font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  color: black;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  list-style-type: none;
+  cursor: pointer;
+}

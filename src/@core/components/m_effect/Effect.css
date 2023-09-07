@@ -1,0 +1,46 @@
+/* Global */
+.motto3{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  font-family: 'Futura Md BT','sans-serif';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  color:#373737;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+@media screen and (max-width: 1020px) {
+.motto3{
+  font-size: 33px;
+}
+}
+.auto-input{
+  height: fit-content;
+  width:100%;
+  background-image: -webkit-linear-gradient(160deg, #848484 30.92%, #FFFFFF 48.36%, #848484 68.09%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: initial;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  -webkit-text-fill-color: rgba(255, 255, 255, .1);
+
+}
+@keyframes animate
+{
+0%
+{
+  background-position: -500%;
+}
+100%
+{
+  background-position: 500%;
+}
+}
+@media screen and (max-width: 380px) {
+.motto3{
+  font-size: 25px;
+}
+}

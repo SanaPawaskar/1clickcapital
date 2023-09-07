@@ -1,0 +1,85 @@
+.Meeting-Calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid orange; */
+    /* height: 400px; */
+}
+.Meeting-Calendar div img {
+   margin-left: 30%;
+   margin-top: 5%;
+}
+.parent-meeting{
+    display: grid;
+     grid-template-columns: 50% 40%;
+     padding: 50px 0px 50px 20%;
+}
+.Meeting-Timer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2%;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 2%;
+}
+.meeting-logo-continer{
+     height: 30%;
+     width: 100%;
+     border-bottom: 2px solid gainsboro;
+}
+
+.Meeting-Timer button{
+    height: 60px;
+    border-radius: 5px;
+    border: 0.5px solid orange;
+    transition: 0.5s all;
+    /* background: rgba(47, 196, 206, 0.1); */
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 1px 0px 2px #2FA6CE, inset 1px 0px 3px #FFFFFF;
+    backdrop-filter: blur(10px);
+}
+.Timer-notactive{
+    display: none;
+}
+.Timer-active{
+    background: linear-gradient(0.55turn, #c9f1f4, #f6f9f5, #efb06d);
+    display: block;
+}
+.Meeting-Timer button:hover{
+   font-size: 25px;
+}
+.Meeting-Timer button:disabled{
+    font-size: 0px;
+    background:#4444;
+}
+.Meeting-Timer button:disabled::before{
+    content: "Slot is Booked";
+    font-size: 1vw;
+}
+.Meeting-modal{
+    width: 100%;
+    align-items: center;
+    display: grid;
+grid-template-columns: 40% 60%;
+    gap: 5px;
+    color: black;
+}
+.modal-content {
+    color: black;
+  }
+/* .Meeting-modal label{
+    color: black;
+}
+.Meeting-modal input {
+  co
+} */
+@media screen and (max-width:600px) {
+    .parent-meeting{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:500px) {
+    .parent-meeting{
+        grid-template-columns: auto;
+    }
+}

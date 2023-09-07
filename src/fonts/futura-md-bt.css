@@ -1,0 +1,28 @@
+@font-face {
+    font-family: futura md bt;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Futura Md BT'),url(./s/14894/futuram.woff) format('woff')
+}
+
+@font-face {
+    font-family: futura md bt;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Futura Md BT'),url(./s/14894/futurami.woff) format('woff')
+}
+
+@font-face {
+    font-family: futura md bt;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Futura Md BT'),url(./s/14894/futurab.woff) format('woff')
+}
+
+@font-face {
+    font-family: futura md bt;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Futura Md BT'),url(./s/14894/futurabi.woff) format('woff')
+}
+

@@ -1,0 +1,236 @@
+.text1underline{
+    font-family: 'Futura  BT',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+   margin-top: 5%;
+     text-align: center;
+    text-decoration-line: underline;
+     color: #373737;
+     line-height: initial;
+     margin-bottom: 1%;
+ }
+ .text2center{
+    font-family: 'Futura  BT',sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+display: flex;
+justify-content: center;
+color: #373737;
+line-height: initial;
+width: 90%;
+padding-left: 13%;
+ }
+ .text2center-p{
+  text-align: center;
+  width: 75%;
+  margin-bottom: 1%;
+ }
+ .text3Bold{
+    font-family: 'Futura  BT',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #373737;
+margin-top: 1%;
+line-height: initial;
+padding: 0% 12%;
+ }
+ .text4{
+    font-family: 'Futura  BT',sans-serif;
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.025em;
+color: #373737;
+margin-top: 1%;
+line-height: initial;
+ }
+ .text5{
+    font-family: 'Futura  BT',sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+letter-spacing: 0.025em;
+text-align: center;
+margin-left: 3%;
+margin-right: 3%;
+color: #373737;
+line-height: initial;
+ }
+ .read-button{
+    border-radius: 50px 50px;
+    width: 180px;
+    height: 35px;
+    border:2px solid rgb(221, 220, 220);
+    box-shadow: 0 2px 5px 2px #a6a6a6;
+    color: white;
+    background: -webkit-linear-gradient(270deg, orange 35%, rgba(0,0,0,0.7) );
+     margin-top: 4%;
+}
+.read-more:hover{
+    color: #373737;
+}
+.read-more{
+    color:white;
+    text-decoration: none;
+    font-family: 'Futura  BT',sans-serif;
+   
+}
+.container-gsap-about {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(150px);
+    backdrop-filter: blur(150px);
+    margin-top: 0px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px 0px 70px 0px;
+    word-wrap: normal;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+  
+  .wordmark-title-about {
+    border-radius: 15px 0px 70px 0px;
+    color: black;
+    position: relative;
+    max-width: 350px;
+    font-size: 35px;
+    font-weight: bold;
+    height: 50px;
+    background-color: black;
+  }
+  .wordmark-title-about::after {
+    padding: 10px 60px;
+    content: "About Us";
+    font-size: 35px;
+    color: white;
+    mix-blend-mode: difference;
+    white-space: nowrap;
+  }
+  
+  .title-rect1-about {
+    border-radius: 0px 0px 100px 0px;
+    width: 450px;
+    height: 20px;
+    background: rgba(47, 196, 206, 0.1);
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 1px 0px 2px #2FA6CE, inset 1px 0px 3px #FFFFFF;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-left: 0%;
+    position: absolute;
+    margin-top: -10px;
+  }
+  .title-rect2-about {
+    border-radius: 0px 0px 100px 0px;
+    width: 120px;
+    height: 20px;
+    background: rgba(47, 196, 206, 0.1);
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 1px 0px 2px #2FA6CE, inset 1px 0px 3px #FFFFFF;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 12px;
+
+  }
+  .rectangle-titlesvg-about{
+    width: 165px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: -220px;
+  }
+  .headings-aboutus{
+    width:55%;
+    height: fit-content;
+    margin-left: 24%;
+    display: block;
+    margin-top: 5%;
+   }
+  @media screen and (max-width: 500px) {
+  .container-gsap-about {
+    width: 200px;
+    height:40px;
+  }
+  
+  .wordmark-title-about {
+    max-width: 200px;
+    height:40px;
+    font-size: 25px;
+  }
+  .wordmark-title-about::after {
+    padding: 10px 40px;
+    font-size: 25px;
+  }
+  .title-rect1-about {
+    width: 250px;
+    height: 20px;
+  }
+  .title-rect2-about {
+    width: 80px;
+    height: 20px;
+  }
+  .rectangle-titlesvg-about {
+    width: 115px;
+    height: 70px;
+    margin-top: -170px;
+    margin-left: 40px;
+  }
+  .read-button{
+    border-radius: 25px 25px;
+    width: 80px;
+    height: 15px;
+    border:1px solid rgb(221, 220, 220);
+    box-shadow: 0 1px 3px 1px #a6a6a6;
+    color: white;
+    background: -webkit-linear-gradient(270deg, orange 35%, rgba(0,0,0,0.7) );
+  }
+  }
+  @media screen and (max-width: 800px) {
+    .text1underline{
+      font-size: 28px;
+    }
+    .text2center{
+      font-size: 18px;
+    }
+    .text3Bold{
+      font-size: 18px;
+    }
+    .text4{
+      font-size: 15px;
+    }
+    .text5{
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .text1underline{
+      font-size: 23px;
+    }
+    .text2center{
+      font-size: 14px;
+    }
+    .text3Bold{
+      font-size: 14px;
+    }
+    .text4{
+      font-size: 12px;
+    }
+    .text5{
+      font-size: 10px;
+    }
+  }

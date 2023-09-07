@@ -1,0 +1,64 @@
+.card1{
+  width: 100%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(120px);
+  backdrop-filter: blur(120px);
+  border-radius: 10px;
+  margin-top: 1%;
+  z-index: 9;
+}
+.marquee-container{
+  display: -webkit-flex !important;
+}
+.marqueeimg1{
+    width: 12vw;
+}
+.marqueeimg6{
+  width: 15vw;
+}
+.marqueeimg2{
+    width: 16vw;
+}
+.marqueeimg3{
+  width: 20vw;
+}
+.marqueeimg4{
+  width: 20vw;
+}
+.marqueeimg5{
+  width: 18vw;
+}
+/* .overlay::before, .overlay::after {
+  display: none;
+} */
+.image-link{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.marquee-container{
+  grid-gap:30%;
+}
+@media screen and (max-width: 500px) {
+  .marqueeimg1{
+    width: 30vw;
+}
+.marqueeimg6{
+  width: 40vw;
+}
+.marqueeimg2{
+  width: 50vw;
+}
+.marqueeimg3{
+  width: 50vw;
+}
+.marqueeimg4{
+  width: 35vw;
+}
+.marqueeimg5{
+  width: 35vw;
+}
+.marquee-container{
+  gap:30%;
+}
+}
