@@ -6,7 +6,7 @@
   "dependencies": {
     "@casl/ability": "^5.4.3",
     "@casl/react": "~3.1.0",
-    "@craco/craco": "^6.4.3",
+    "@craco/craco": "^6.4.5",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
@@ -130,9 +130,9 @@
     "eslint": "^8.19.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.6.2",
-    "sass-loader": "^12.6.0",
-    "gh-pages":"^5.0.0"
+    "sass-loader": "^12.6.0"
   },
   "browserslist": {
     "production": [
