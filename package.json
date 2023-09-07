@@ -1,6 +1,6 @@
 {
   "name": "1ClickCapital",
-  "homepage": "/",
+  "homepage": "https://SanaPawaskar.github.io/1clickcapital",
   "version": "8.0.0",
   "private": true,
   "dependencies": {
@@ -131,7 +131,8 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.29.4",
     "prettier": "^2.6.2",
-    "sass-loader": "^12.6.0"
+    "sass-loader": "^12.6.0",
+    "gh-pages":"^5.0.0"
   },
   "browserslist": {
     "production": [
